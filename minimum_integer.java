@@ -1,8 +1,8 @@
-//GFGF daily problem 30-03-23
+//GFGF daily problem 30-03-23 
 
 class Solution {
     public static int minimumInteger(int n, int[] a) {
-        // code here
+
         long sum = 0;
         for (int val : a) {
             sum += (long) val;
